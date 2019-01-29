@@ -8,15 +8,13 @@ import java.lang.reflect.Method;
 
 public class MyHandler implements HttpHandler {
 
-    private RequestHandler requestHandler;
-    private PathControl pc;
     private HttpMethodType newMethodType;
 
     public void handle(HttpExchange exchange) {
-        requestHandler = new RequestHandler();
-        pc = new PathControl();
+        RequestHandler requestHandler = new RequestHandler();
+        PathControl pc = new PathControl();
         String requestURI = pc.actualPath(exchange.getRequestURI().toString());
-        HttpMethodType newMethodType = checkMethodType(exchange.getRequestMethod());
+        newMethodType = checkMethodType(exchange.getRequestMethod());
 
         try {
             for (Method method : Class.forName("com.codecool.enterprise.RequestHandler").getMethods()) {

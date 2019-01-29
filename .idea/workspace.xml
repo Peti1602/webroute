@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="759e9833-d116-44c0-a011-205721046682" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/codecool/enterprise/MyHandlerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/enterprise/MyHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/enterprise/MyHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/enterprise/RequestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/enterprise/RequestHandler.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,20 +19,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="101">
               <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/codecool/enterprise/server.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/codecool/enterprise/PathControl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="45">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -40,8 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/codecool/enterprise/MyHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-314">
-              <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+            <state relative-caret-position="150">
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,22 +47,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/codecool/enterprise/MyHandlerTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/codecool/enterprise/HttpMethodType.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/codecool/enterprise/PathControlTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="60" />
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -91,13 +76,13 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/codecool/enterprise/WebrouteAnnotations.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/codecool/enterprise/HttpMethodType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/codecool/enterprise/RequestHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/codecool/enterprise/PathControl.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/codecool/enterprise/server.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/codecool/enterprise/PathControlTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/codecool/enterprise/MyHandler.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/codecool/enterprise/MyHandlerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/codecool/enterprise/MyHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/codecool/enterprise/RequestHandler.java" />
       </list>
     </option>
   </component>
@@ -184,7 +169,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548793134646" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548793371886" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -216,7 +201,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MyHandlerTest">
+  <component name="RunManager" selected="Application.server">
     <configuration name="server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.codecool.enterprise.server" />
       <module name="webroute" />
@@ -260,8 +245,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MyHandlerTest" />
         <item itemvalue="Application.server" />
+        <item itemvalue="JUnit.MyHandlerTest" />
         <item itemvalue="JUnit.PathControlTest" />
       </list>
     </recent_temporary>
@@ -278,7 +263,7 @@
       <updated>1548762228205</updated>
       <workItem from="1548762235168" duration="21000" />
       <workItem from="1548762738964" duration="9382000" />
-      <workItem from="1548791506601" duration="1445000" />
+      <workItem from="1548791506601" duration="2092000" />
     </task>
     <task id="LOCAL-00001" summary="add http server">
       <created>1548770538662</created>
@@ -301,13 +286,17 @@
       <option name="project" value="LOCAL" />
       <updated>1548792517952</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add MyHandler class Junit tests">
+      <created>1548793149346</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1548793149346</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PathControlTest - 2019.01.29 at 15h 15m 51s.xml">
-      <configuration name="PathControlTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PathControlTest - 2019.01.29 at 15h 16m 11s.xml">
       <configuration name="PathControlTest" configurationId="JUnit" />
     </history-entry>
@@ -329,13 +318,21 @@
     <history-entry file="PathControlTest - 2019.01.29 at 20h 54m 00s.xml">
       <configuration name="PathControlTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MyHandlerTest - 2019.01.29 at 21h 15m 58s.xml">
+      <configuration name="MyHandlerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyHandlerTest - 2019.01.29 at 21h 17m 42s.xml">
+      <configuration name="MyHandlerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyHandlerTest - 2019.01.29 at 21h 18m 58s.xml">
+      <configuration name="MyHandlerTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10848000" />
+    <option name="totallyTimeSpent" value="11495000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="696" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25757575" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -375,47 +372,27 @@
     <MESSAGE value="add http server" />
     <MESSAGE value="add some JUnit test to PathControl" />
     <MESSAGE value="add MyHandler class" />
-    <option name="LAST_COMMIT_MESSAGE" value="add MyHandler class" />
+    <MESSAGE value="add MyHandler class Junit tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="add MyHandler class Junit tests" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codecool/enterprise/RequestHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/codecool/enterprise/PathControlTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codecool/enterprise/HttpMethodType.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/codecool/enterprise/MyHandlerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codecool/enterprise/WebrouteAnnotations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="170">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codecool/enterprise/PathControl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -429,30 +406,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codecool/enterprise/WebrouteAnnotations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codecool/enterprise/RequestHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="54" lean-forward="true" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codecool/enterprise/PathControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/codecool/enterprise/MyHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-314">
-          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+        <state relative-caret-position="150">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/codecool/enterprise/PathControlTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codecool/enterprise/HttpMethodType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/codecool/enterprise/MyHandlerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
