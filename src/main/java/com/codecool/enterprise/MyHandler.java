@@ -3,7 +3,6 @@ package com.codecool.enterprise;
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
 
-import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
@@ -11,6 +10,7 @@ public class MyHandler implements HttpHandler {
 
     private RequestHandler requestHandler;
     private PathControl pc;
+    private HttpMethodType newMethodType;
 
     public void handle(HttpExchange exchange) {
         requestHandler = new RequestHandler();
@@ -37,8 +37,7 @@ public class MyHandler implements HttpHandler {
         }
     }
 
-    private HttpMethodType checkMethodType(String methodType){
-        HttpMethodType newMethodType;
+    HttpMethodType checkMethodType(String methodType){
         if(methodType.equals("GET")){
             newMethodType = HttpMethodType.GET;
         } else if (methodType.equals("POST")){
